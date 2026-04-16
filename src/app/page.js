@@ -1,12 +1,11 @@
-import Image from "next/image";
+import Banner from "@/components/homePage/Banner";
+import NavBar from "@/components/shared/navbar/NavBar";
 
 export default function Home() {
   return (
-    
     <>
-    <div className="h-[50vh] flex justify-center items-center ">
-      <h1 className=" text-5xl font-bold text-red-800 "> This is Home page</h1>
-    </div>
+      <Banner/>
+      <div> This is home page</div>
     </>
   );
 }
