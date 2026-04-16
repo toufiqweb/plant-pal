@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 const Banner = () => {
   return (
-    <div className="hero w-full bg-gradient-to-br  from-emerald-950 via-green-950 to-teal-950 rounded-2xl relative overflow-hidden">
+    <div className="hero w-full bg-gradient-to-br my-20 from-emerald-950 via-green-950 to-teal-950 rounded-2xl relative overflow-hidden">
       
       {/* Background subtle pattern */}
       <div className="absolute inset-0 bg-[radial-gradient(at_center,#15803d20_0%,transparent_70%)]"></div>
