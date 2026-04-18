@@ -1,0 +1,98 @@
+[
+    {
+      "id": 1,
+      "name": "Monstera Deliciosa",
+      "picture": "https://i.ibb.co.com/bjL4ySqc/81q23-Te-IPs-L-AC-UF1000-1000-QL80.jpg",
+      "email": "monstera.garden@example.com",
+      "days_since_contact": 5,
+      "status": "on-track",
+      "tags": ["tropical", "large leaves"],
+      "bio": "My favorite statement plant. Loves bright indirect light and climbing support.",
+      "goal": 10,
+      "next_due_date": "2026-04-25"
+    },
+    {
+      "id": 2,
+      "name": "Snake Plant",
+      "picture": "https://i.ibb.co.com/tMMrFvr6/53499-DEC-E916-43-A5-8-E9-A-BCF6-B52254-AE.webp",
+      "email": "snake.plant.care@example.com",
+      "days_since_contact": 18,
+      "status": "overdue",
+      "tags": ["low maintenance", "air purifying"],
+      "bio": "Also known as Mother-in-Law's Tongue. Extremely hardy and perfect for beginners.",
+      "goal": 14,
+      "next_due_date": "2026-04-20"
+    },
+    {
+      "id": 3,
+      "name": "Fiddle Leaf Fig",
+      "picture": "https://i.ibb.co.com/KzWDt5zs/fiddle-leaf-fig-ficus-lyrata-8501194.webp",
+      "email": "fiddle.fig@example.com",
+      "days_since_contact": 9,
+      "status": "almost due",
+      "tags": ["tree-like", "indoor tree"],
+      "bio": "Beautiful but a bit dramatic. Needs consistent watering and bright light.",
+      "goal": 13,
+      "next_due_date": "2026-04-22"
+    },
+    {
+      "id": 4,
+      "name": "Pothos Golden",
+      "picture": "https://i.ibb.co.com/TDzPgR0s/Golden-Pothos-Totem10-SW-Black.webp",
+      "email": "pothos.golden@example.com",
+      "days_since_contact": 3,
+      "status": "on-track",
+      "tags": ["trailing", "easy care"],
+      "bio": "The ultimate beginner plant. Grows fast and forgives neglect.",
+      "goal": 10,
+      "next_due_date": "2026-04-26"
+    },
+    {
+      "id": 5,
+      "name": "ZZ Plant",
+      "picture": "https://i.ibb.co.com/20GY2JYM/12.webp",
+      "email": "zz.plant@example.com",
+      "days_since_contact": 25,
+      "status": "overdue",
+      "tags": ["drought tolerant", "low light"],
+      "bio": "Almost indestructible. Can survive weeks without water.",
+      "goal": 21,
+      "next_due_date": "2026-04-15"
+    },
+    {
+      "id": 6,
+      "name": "Peace Lily",
+      "picture": "https://i.ibb.co.com/cSnJbXXZ/1182220-peace-lily-live-plant-best-indoor-plant-indoor-plant-300.webp",
+      "email": "peace.lily@example.com",
+      "days_since_contact": 7,
+      "status": "on-track",
+      "tags": ["flowering", "air purifying"],
+      "bio": "Elegant white flowers. Droops when thirsty — a perfect natural reminder.",
+      "goal": 7,
+      "next_due_date": "2026-04-23"
+    },
+    {
+      "id": 7,
+      "name": "Rubber Plant",
+      "picture": "https://i.ibb.co.com/84nMjGZM/the-sill-ficus-elastica-upcycled-planter-small-cream-1.webp",
+      "email": "rubber.plant@example.com",
+      "days_since_contact": 12,
+      "status": "almost due",
+      "tags": ["glossy leaves", "tropical"],
+      "bio": "Grows tall with shiny dark green leaves. Loves humidity.",
+      "goal": 14,
+      "next_due_date": "2026-04-21"
+    },
+    {
+      "id": 8,
+      "name": "Calathea Orbifolia",
+      "picture": "https://i.ibb.co.com/4wDJTCfP/Calathea-Orbifolia-fibreclay-stone-pot-88ffd6034226624deae94168fab44b2e.jpg",
+      "email": "calathea.orbifolia@example.com",
+      "days_since_contact": 4,
+      "status": "on-track",
+      "tags": ["prayer plant", "patterned leaves"],
+      "bio": "Stunning striped leaves that move with light. Prefers high humidity.",
+      "goal": 7,
+      "next_due_date": "2026-04-24"
+    }
+  ]

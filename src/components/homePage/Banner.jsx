@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 const Banner = () => {
   return (
-    <div className="hero w-full bg-gradient-to-br my-20 from-emerald-950 via-green-950 to-teal-950 rounded-2xl relative overflow-hidden">
+    <div className="hero w-full bg-linear-to-br my-20 from-emerald-950 via-green-950 to-teal-950 rounded-2xl relative overflow-hidden">
       
       {/* Background subtle pattern */}
       <div className="absolute inset-0 bg-[radial-gradient(at_center,#15803d20_0%,transparent_70%)]"></div>
@@ -74,7 +74,7 @@ const Banner = () => {
           <div className="relative">
 
             {/* Image */}
-            <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-[420px] lg:h-[420px] rounded-3xl overflow-hidden shadow-2xl border-8 border-white/10 mx-auto lg:mx-0">
+            <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-105 lg:h-105 rounded-3xl overflow-hidden shadow-2xl border-8 border-white/10 mx-auto lg:mx-0">
               <Image
                 src="https://images.unsplash.com/photo-1512428559087-560fa5ceab42"
                 alt="Healthy Plant"
@@ -82,7 +82,7 @@ const Banner = () => {
                 className="object-cover"
                 priority
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+              <div className="absolute inset-0 bg-linear-to-t from-black/60 via-transparent to-transparent"></div>
             </div>
 
             {/* Floating Card */}
@@ -118,7 +118,7 @@ const Banner = () => {
       {/* Scroll Indicator */}
       <div className="absolute bottom-6 left-1/2 -translate-x-1/2 hidden lg:flex flex-col items-center gap-1 text-white/60">
         <p className="text-xs tracking-widest">SCROLL TO EXPLORE</p>
-        <div className="w-px h-12 bg-gradient-to-b from-transparent via-white/40 to-transparent"></div>
+        <div className="w-px h-12 bg-linear-to-b from-transparent via-white/40 to-transparent"></div>
       </div>
 
     </div>
