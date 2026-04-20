@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const PlantCard = ({ plant }) => {
@@ -136,9 +137,11 @@ const PlantCard = ({ plant }) => {
 
         {/* Footer */}
         <div className="card-actions justify-end mt-4">
-          <button className="btn btn-sm btn-ghost text-primary group-hover:translate-x-1 transition">
-            View Details →
-          </button>
+          <Link href={`/plants/${id}`}>
+            <button className="btn btn-sm btn-ghost text-primary group-hover:translate-x-1 transition">
+              View Details →
+            </button>
+          </Link>
         </div>
       </div>
     </div>

@@ -1,15 +1,12 @@
 import React from "react";
 import PlantCard from "../ui/PlantCard";
+import { getData } from "@/lib/plants/Plants";
 
-const getData = async () => {
-  const res = await fetch("http://localhost:3000/data.json");
-  const data = await res.json();
-  return data;
-};
+
 
 const PlantsSection = async () => {
   const plants = await getData();
-  console.log(plants);
+  // console.log(plants);
 
   return (
     <div className="my-20 px-5 space-y-5">
