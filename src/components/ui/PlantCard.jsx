@@ -136,9 +136,9 @@ const PlantCard = ({ plant }) => {
         </div>
 
         {/* Footer */}
-        <div className="card-actions justify-end mt-4">
-          <Link href={`/plants/${id}`}>
-            <button className="btn btn-sm btn-ghost text-primary group-hover:translate-x-1 transition">
+        <div className="card-actions  justify-end mt-4">
+          <Link href={`/plants/${id}`} className="cursor-pointer">
+            <button className="btn btn-sm btn-ghost text-primary cursor-pointer group-hover:translate-x-1 transition">
               View Details →
             </button>
           </Link>

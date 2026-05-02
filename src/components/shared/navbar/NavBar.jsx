@@ -16,7 +16,7 @@ export default function NavBar() {
   ];
 
   return (
-    <nav className="navbar bg-base-100 shadow-md border-b border-green-200 sticky top-0 z-50 py-5">
+    <nav className="navbar bg-white shadow-md border-b border-green-200 sticky top-0 z-50 py-5">
       <div className="max-w-7xl mx-auto w-full px-4 flex justify-between items-center">
         {/* Logo Section */}
         <div className="navbar-start">
