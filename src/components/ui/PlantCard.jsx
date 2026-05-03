@@ -52,7 +52,7 @@ const PlantCard = ({ plant }) => {
   }
 
   return (
-    <div className=" relative overflow-hidden rounded-[28px]  backdrop-blur-xl shadow-xl hover:shadow-2xl hover:shadow-primary/10 transition-all duration-500 hover:-translate-y-2  mx-auto">
+    <div className=" relative w-full overflow-hidden rounded-[28px]  backdrop-blur-xl shadow-xl hover:shadow-2xl hover:shadow-primary/10 transition-all duration-500 hover:-translate-y-2  mx-auto">
       {/* Premium Glow Effect */}
       <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition duration-500 bg-linear-to-br from-primary/5 via-transparent to-secondary/10"></div>
 

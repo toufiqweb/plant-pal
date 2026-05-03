@@ -51,7 +51,7 @@ export default function NavBar() {
                       ${
                         isActive
                           ? "bg-green-600 text-white shadow-md"
-                          : "hover:bg-green-100 text-base-content"
+                          : "hover:bg-green-100 text-black text-base-content"
                       }`}
                   >
                     <Icon className="w-5 h-5" />
